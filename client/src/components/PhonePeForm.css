@@ -1,0 +1,129 @@
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 50px auto;
+  /*Centertheformhorizontally*/transition: 0.3s;
+  width: 400px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+
+.card-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* or center, depending on your layout */
+
+}
+
+/* Style adjustments for paragraphs to add hover effect and improve readability */
+.paragraph {
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  cursor: pointer;
+  text-align: left; /* Center paragraph text */
+  padding: 5px; /* Add padding for better touch experience */
+}
+
+.paragraph:hover {
+  color: #210e8d; /* Change color on hover */
+  background-color: #f0f0f0; /* Add background color on hover */
+  transform: scale(1.05); /* Slight increase in size */
+}
+
+/* Header and general information styling for clarity and emphasis */
+.form-container h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.info {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Additional card styling for aesthetic enhancement */
+.card {
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 50px auto; /* Center the card */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #ccb7f7, #8ee9ec);
+}
+
+.title{
+  text-align: center;
+  margin: 5px 0;
+}
+
+.price {
+  font-size: 2em;
+  color: #0a4088;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-self: center;
+    text-align: center;
+  margin: 5px 0;
+}
+.price1 {
+  font-size: 2em;
+  color: #0a4088;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-self: center;
+    text-align: center;
+  margin: 5px 0;
+}
+
+.title {
+  font-size: 1.5em;
+  color: #051c3d;
+}
+
+.price {
+  font-size: 2em;
+  color: #0a4088;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Enhanced button styling for improved user engagement */
+.btn-get-started {
+  background-color: #051c3d;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  align-self: center;
+}
+
+.btn-get-started:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Slight grow effect */
+}
+
+
+* {
+  transition: all 0.3s ease-in-out;
+}
